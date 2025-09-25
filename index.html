@@ -24,7 +24,7 @@
         p {
             font-size: 1.2em;
             color: #333;
-            max-width: 600px;
+            max-width: 700px;
             margin: auto;
             line-height: 1.6;
         }
@@ -34,16 +34,29 @@
             margin: 30px auto;
             border-radius: 20px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            max-width: 700px;
+            max-width: 900px;
         }
         .hearts {
             font-size: 2em;
             animation: float 2s infinite alternate;
             color: red;
+            margin: 20px 0;
         }
         @keyframes float {
             from { transform: translateY(0); }
             to { transform: translateY(-10px); }
+        }
+        img {
+            width: 250px;
+            height: auto;
+            border-radius: 15px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        iframe {
+            border-radius: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
         }
         button {
             background-color: #ff4d6d;
@@ -66,16 +79,28 @@
     <div class="card">
         <h2>💖 María 💖</h2>
         <p>
-            Desde que te conocí, mi corazón no deja de sonreír.  
-            Eres como la melodía más dulce, como un amanecer lleno de esperanza.  
-            No necesito estrellas para iluminar mi camino, porque con tu mirada tengo todo lo que busco.  
+            Desde que apareciste en mi vida, todo se volvió más hermoso.  
+            Tus ojos son mi luz, tu sonrisa mi refugio y tu voz la melodía que alegra mis días.  
+            💕 Quiero que sepas que me encantas tal como eres. 💕
         </p>
         <p>
-            Hoy quiero decirte, María, que me encantas con cada detalle tuyo.  
-            Que mi mayor deseo es estar a tu lado, compartir momentos, risas y sueños.  
-            💕 Porque si algo tengo claro, es que contigo todo tiene más sentido. 💕
+            Mi deseo es caminar a tu lado, compartir risas, abrazos y sueños.  
+            Porque contigo todo tiene más sentido, María.  
         </p>
+        
         <div class="hearts">❤️❤️❤️</div>
+        
+        <!-- Fotos románticas -->
+        <div>
+            <img src="A.jpg" alt="Pareja romántica">
+            <img src="L.jpg" alt="Amor">
+            <img src="E.jpg" alt="Corazones">
+        </div>
+
+        <!-- Video romántico -->
+        <iframe width="560" height="315" src="TE AMO.mp4"
+        title="Video romántico" frameborder="0" allowfullscreen></iframe>
+
         <button onclick="alert('María, ¿me dejas enamorarte cada día más? 💖')">Haz clic aquí 💌</button>
     </div>
 </body>
